@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>你的OC名字｜Official Page</title>
+<style>
+  :root{--bg:#0f0f13;--card:#161823;--text:#e9ecf1;--muted:#a7b0c0;--acc:#8ab4ff;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial; background:linear-gradient(180deg,#0b0c10,#121421);}
+  header{height:56vh;display:grid;place-items:center;background:
+    radial-gradient(60% 60% at 50% 40%,rgba(138,180,255,.15),transparent 60%),
+    url('你的横幅图.jpg') center/cover no-repeat, var(--bg);
+    color:var(--text); text-align:center; padding:24px}
+  header h1{font-size:clamp(32px,5vw,64px); margin:0 0 8px}
+  header p{color:var(--muted); margin:0}
+  .wrap{max-width:1000px;margin:auto;padding:28px 16px 60px}
+  .grid{display:grid;gap:16px}
+  @media(min-width:900px){.grid{grid-template-columns:1.2fr 2fr}}
+  .card{background:rgba(22,24,35,.7); border:1px solid rgba(255,255,255,.08);
+    border-radius:18px; padding:18px; color:var(--text); backdrop-filter: blur(6px)}
+  .card h2{margin:0 0 10px; font-size:22px}
+  .meta{display:grid;grid-template-columns:1fr 1fr;gap:8px;color:var(--muted);font-size:14px}
+  .tag{display:inline-block;padding:4px 10px;border:1px solid rgba(255,255,255,.12);border-radius:999px;margin:4px 6px 0 0;color:var(--acc)}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+  .gallery img{width:100%;height:160px;object-fit:cover;border-radius:12px;border:1px solid rgba(255,255,255,.08)}
+  .timeline{border-left:2px solid rgba(255,255,255,.12);margin-left:6px;padding-left:14px}
+  .titem{margin:14px 0}
+  .titem time{color:var(--acc);font-size:14px}
+  a.btn{display:inline-block;margin-top:10px;padding:10px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.12);color:var(--text);text-decoration:none}
+  a.btn:hover{border-color:var(--acc)}
+  footer{color:#93a0b4;text-align:center;padding:24px;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>你的OC名字（中/英/JPN都可）</h1>
+    <p>一句话人设Slogan：例如「来自异世界的白毛狐狸・守望月光的旅人」</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="grid">
+    <aside class="card">
+      <h2>基本档案</h2>
+      <div class="meta">
+        <div><b>种族</b>：狐妖</div>
+        <div><b>年龄</b>：外表16 / 实龄300+</div>
+        <div><b>身高</b>：158cm</div>
+        <div><b>阵营</b>：中立善良</div>
+        <div><b>定位</b>：法系辅助/圣女</div>
+        <div><b>所属</b>：夜之教会</div>
+      </div>
+      <div style="margin-top:10px">
+        <span class="tag">#白毛</span>
+        <span class="tag">#彩色呆毛</span>
+        <span class="tag">#温柔毒舌</span>
+      </div>
+
+      <h2 style="margin-top:18px">语录</h2>
+      <p style="color:var(--muted)">“把月光折进口袋里，明天也会发光。”</p>
+
+      <a class="btn" href="#contact">联系 / 社媒</a>
+    </aside>
+
+    <article class="card">
+      <h2>世界观与设定</h2>
+      <p>在这里写你的背景：出身、能力、阵营、成长线、与其他角色的关系（可加粗名字）。</p>
+      <p><b>能力</b>：夜光治愈（群体缓回）、月影护盾（减伤）、神使共鸣（跨界同位体共感）。</p>
+
+      <h2 style="margin-top:14px">美术设定要点</h2>
+      <ul>
+        <li>主色：月白 / 绀青；点缀：樱粉、金箔纹。</li>
+        <li>服装：长袍+萌袖，腰部系红绳，发饰为新月玉。</li>
+        <li>表情：温柔→毒舌（高冷）→认真（眼神锐）。</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="card" style="margin-top:16px">
+    <h2>图集 Gallery</h2>
+    <div class="gallery">
+      <img src="pic1.jpg" alt="立绘A">
+      <img src="pic2.jpg" alt="Q版">
+      <img src="pic3.jpg" alt="设定稿">
+      <img src="pic4.jpg" alt="表情">
+    </div>
+  </section>
+
+  <section class="card" style="margin-top:16px">
+    <h2>时间线 / 更新</h2>
+    <div class="timeline">
+      <div class="titem">
+        <time>2025-10-01</time>
+        <div>发布第一版角色曲《Moon Shelter》与封面插图。</div>
+      </div>
+      <div class="titem">
+        <time>2025-10-20</time>
+        <div>新增世界观条目：教会与勇者团设定；补充语录3条。</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="card" style="margin-top:16px">
+    <h2>联系 / 社媒</h2>
+    <p>Twitter / B站 / 小红书 / 邮箱等链接放这里。</p>
+    <a class="btn" href="https://your-link.example">主站 / 作品合集</a>
+  </section>
+</main>
+
+<footer>© 2025 by 你的名字 · Free on GitHub Pages</footer>
+</body>
+</html>
